@@ -31,6 +31,11 @@ h2 {
   font-family:'Times New Roman', Times, serif;
 }
 
+h3 {
+  text-align: left;
+  font-weight: bolder;
+}
+
 button {
   padding: 0.5rem 1rem;
   cursor: pointer;
