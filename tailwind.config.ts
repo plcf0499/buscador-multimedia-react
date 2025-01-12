@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'nasa-pattern': "url('/fondo-estrellas.jpg')",
+      },
     },
   },
   plugins: [],

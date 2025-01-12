@@ -20,7 +20,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  font-size: x-large;
+  font-family: -apple-system;
+  font-weight: bolder;
+}
+
 h2 {
   font-size: x-large;
   font-family:'Times New Roman', Times, serif;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #002557;
+}
+
+button:hover {  
+  cursor: pointer;
+  background-color:midnightblue;
+}
+
+header {
+  text-align: center;
+  font-size: x-large;
+  font-family: -apple-system;
+  font-weight: bolder;
 }

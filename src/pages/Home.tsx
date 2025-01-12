@@ -14,8 +14,10 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div>
-      <Header />
+    <div className="min-h-screen bg-cover bg-fixed bg-center" style={{
+        backgroundImage: `url('/fondo-estrellas.jpg')`,
+      }}>
+      <Header />      
       <SearchBar onSearch={handleSearch} />
       <MediaGrid items={mediaItems} />
     </div>

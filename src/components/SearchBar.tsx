@@ -13,17 +13,17 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
     }
   };
 
-  return (
-    <div style={{ display: "flex", margin: "1rem" }}>
+  return (    
+    <div style={{ display: "flex", margin: "2rem"}}>            
       <input
         type="text"
         placeholder="Buscar..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        style={{ flex: 1, padding: "0.5rem" }}
+        style={{ flex: 1, padding: "0.5rem", color: "#000000"}}
       />
       <button onClick={handleSearch} style={{ marginLeft: "0.5rem" }}>
-        Buscar
+        <h3>Buscar</h3>
       </button>
     </div>
   );

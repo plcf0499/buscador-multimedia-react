@@ -12,5 +12,10 @@ body {
   button {
     padding: 0.5rem 1rem;
     cursor: pointer;
+    color: #235644
   }
-  
+
+  button:hover {
+    color:#002646;
+    cursor: pointer;
+  }
