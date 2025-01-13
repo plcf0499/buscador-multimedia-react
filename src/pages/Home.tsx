@@ -15,7 +15,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-cover bg-fixed bg-center" style={{
-        backgroundImage: `url('/fondo-estrellas.jpg')`,
+        backgroundImage: `url('/fondo-estrellas-2.jpg')`,
       }}>
       <Header />      
       <SearchBar onSearch={handleSearch} />
